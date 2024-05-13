@@ -1,0 +1,80 @@
+/* a:hover{
+    text-decoration: none;
+} */
+/* h1:hover a {
+  color: red;
+} */
+/* a{
+    display: none;
+} */
+/* div:hover a{
+    color: red;
+    text-decoration: none;
+} */
+/* div:hover a{
+    display: inline;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/red\ antum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(251, 255, 0, 0.185);
+    width: 10%;
+    height: 100vh;
+}
+#cant{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: greenyellow;
+}
+/* #menu{
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+    position: relative;
+    display: none;
+} */
+#menu{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: aqua;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop{
+    position: relative;
+}
+#drop:hover #menu{
+    display: block;
+}
+#i{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: crimson;
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+}
+#p{
+    position: relative;
+}
+#p:hover #i{
+    display: block;
+}
